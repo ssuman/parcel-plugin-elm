@@ -6,6 +6,10 @@
   "scripts": {
     "example": "cd examples && npm start"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssuman/parcel-plugin-elm.git"
+  },
   "author": "Suman Subash",
   "license": "ISC",
   "dependencies": {
