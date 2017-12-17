@@ -1,0 +1,15 @@
+{
+  "name": "parcel-plugin-elm",
+  "version": "0.1.1-alpha",
+  "description": "A parcel plugin that enables elm support",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve index.html --no-cache"
+  },
+  "author": "Suman Subash",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.2.0",
+    "parcel-plugin-elm": "file:../"
+  }
+}

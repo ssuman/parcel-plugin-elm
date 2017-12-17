@@ -1,0 +1,6 @@
+.cache
+node_modules/
+dist
+elm-stuff/
+package-lock.json
+elm-package.json
