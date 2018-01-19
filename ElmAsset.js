@@ -15,12 +15,11 @@ class ElmAsset extends JSAsset {
     return defaultOptions;
   }
   
-  getDependencies() {
-    let that = this;
-    return findAllDependencies(this.name).then(function(deps) {
-      deps.forEach(function(dep) {
-        that.addDependency(dep, { includedInParent: true });
-      });
+  async getDependencies() {
+    await super.getDependencies()
+    let deps = await findAllDependencies(this.name);
+    deps.forEach(dep => {
+      this.addDependency(dep, { includedInParent: true });
     });
   }
 
