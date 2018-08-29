@@ -1,4 +1,5 @@
-import('./main.elm').then(Elm => {
-    var mountNode = document.getElementById('main');
-    var app = Elm.Main.embed(mountNode);
-});
+import('./src/Main.elm')
+    .then(({ Elm }) => {
+        var node = document.querySelector('main');
+        Elm.Main.init({ node: node });
+    });

@@ -1,29 +1,3 @@
-## HTML
-```
-<!-- First page -->
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <main></main>
-    <script src="./index.js"></script>
-  </body>
-</html>
-```
-
-## ELM Bootstrap
-```
-import('./src/Main.elm')
-    .then(({ Elm }) => {
-        var node = document.querySelector('main');
-        Elm.Main.init({ node: node });
-    });
-```
-
-## ELM Code
-```
 import Browser
 import Html exposing (..)
 import Html.Events exposing (onClick)
@@ -56,4 +30,3 @@ main =
         , view = view
         , update = update
         }
-```
