@@ -8,6 +8,10 @@ class ElmAsset extends JSAsset {
   getParserOptions() {
     const defaultOptions = {
       cwd: process.cwd(),
+
+      // Optimize assets if NODE_ENV is set to production
+      optimize: (process.env.NODE_ENV === 'production')
+
     };
     return defaultOptions;
   }
