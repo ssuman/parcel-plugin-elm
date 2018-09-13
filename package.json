@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "find-elm-dependencies": "^2.0.0",
-    "node-elm-compiler": "^5.0.0",
+    "node-elm-compiler": "^5.0.1",
     "parcel-bundler": "^1.9.7"
   },
   "devDependencies": {
