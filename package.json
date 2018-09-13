@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-elm",
-  "version": "0.1.3-alpha",
+  "version": "0.2.0-alpha",
   "description": "A parcel plugin that enables elm support",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,8 @@
   "author": "Suman Subash",
   "license": "ISC",
   "dependencies": {
-    "find-elm-dependencies": "^1.0.2",
-    "node-elm-compiler": "^4.4.1",
+    "find-elm-dependencies": "^2.0.0",
+    "node-elm-compiler": "^5.0.1",
     "parcel-bundler": "^1.2.0"
   },
   "devDependencies": {
