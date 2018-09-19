@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-elm",
-  "version": "0.1.2-alpha",
+  "version": "0.1.4-alpha",
   "description": "A parcel plugin that enables elm support",
   "main": "index.js",
   "scripts": {
